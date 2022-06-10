@@ -1,1 +1,2 @@
-# algo-challenge
+# newalgo
+ Algorithm challenges

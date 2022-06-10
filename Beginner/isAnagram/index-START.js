@@ -9,6 +9,20 @@ don't. E.g
 
 function isAnagram(stringA, stringB) {
     // Code goes here
+    // function should return boolean
+    // check and compare lengths
+    // sort theeee strings
+    // compare the two sorted strings
+    //Check if the two strings have different lengths
+    if (stringA.length !== stringB.length) {
+        return false;
+    }
+
+    //Sort the two strings
+    let s1 = stringA.split('').sort().join('');
+    let s2 = stringB.split('').sort().join('');
+    //Compare the two sorted strings
+    return (s1 === s2);
 }
 
 

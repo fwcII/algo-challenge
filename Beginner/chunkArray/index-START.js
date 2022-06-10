@@ -6,6 +6,13 @@
 
 function chunkArray(array, size) {
     // Code goes here
+    let newArray = []
+    // newSize = size
+    for(i = 0; i < array.length; i+=size) {
+        newArray.push(array.slice (i, i+size))
+    }
+    console.log(newArray)
+    return newArray
 }
 
 
